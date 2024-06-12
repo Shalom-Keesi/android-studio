@@ -25,7 +25,7 @@ class FifthBirdActivity : AppCompatActivity() {
         btnprev4.setOnClickListener {
             finish()
         }
-        Picasso.get().load("https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8").into(binding.imageView12)
+        Picasso.get().load("https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8").into(binding.imageView)
 
 
     }
